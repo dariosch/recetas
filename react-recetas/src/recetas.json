@@ -1,0 +1,39 @@
+[
+  {
+    "id": 0,
+    "name": "Huevo ponchado",
+    "easiness": 1,
+    "time": 10,
+    "ingredients": ["Huevo"]
+  },
+
+  {
+    "id": 1,
+    "name": "Huevos Revueltos",
+    "easiness": 1,
+    "time": 15,
+    "ingredients": ["Huevo", "Aceite"]
+  },
+
+  {
+    "id": 2,
+    "name": "Sandwich jamon crudo",
+    "easiness": 0,
+    "time": 15,
+    "ingredients": ["Mayonesa", "Queso", "Jamon", "Cebolla frita", "Picante"]
+  },
+  {
+    "id": 3,
+    "name": "Fideos con manteca",
+    "easiness": 1,
+    "time": 15,
+    "ingredients": ["Spaghettis", "Manteca"]
+  },
+  {
+    "id": 4,
+    "name": "Tostada de manteca",
+    "easiness": 0,
+    "time": 15,
+    "ingredients": ["Pan", "Manteca"]
+  }
+]

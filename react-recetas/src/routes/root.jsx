@@ -13,9 +13,11 @@ export default function Root() {
 
   const addNuevoIngrediente = (value) => {
     if (value.trim() !== "") {
-      const nuevosIngredientes = [...ingredientes, value];
-      setIngredientes(nuevosIngredientes);
-      setNuevoIngrediente("");
+      if (!ingredientes.find((ingrediente) => ingrediente === value)) {
+        const nuevosIngredientes = [...ingredientes, value];
+        setIngredientes(nuevosIngredientes);
+        setNuevoIngrediente("");
+      } else alert("El ingrediente ya existe");
     }
   };
 
